@@ -35,10 +35,10 @@ For example:
 ```python enjoy.py --algo sac --env jtr-modelless-v4 --folder logs/```
 
 Or different graphs can be viewed by
-- ```scripts/all\_plots.py``` or ```scripts/plot\_from\_file.py``` for plotting evaluations
-- ```scripts/plot\_train.py``` for plotting training reward/success
+- ```scripts/all_plots.py``` or ```scripts/plot_from_file.py``` for plotting evaluations
+- ```scripts/plot_train.py``` for plotting training reward/success
 
-The most used plotting option was scripts/plot\_train.py, such as:
+The most used plotting option was scripts/plot_train.py, such as:
 ```python scripts/plot_train.py -a sac -env jtr-modelless-v4 -f logs/```
 
 Again, details of options can be found in RL Baselines3 Zoo [Docs](https://stable-baselines3.readthedocs.io/en/master/guide/rl_zoo.html) and [Github](https://github.com/DLR-RM/rl-baselines3-zoo)
